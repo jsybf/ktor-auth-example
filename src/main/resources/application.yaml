@@ -1,0 +1,6 @@
+ktor:
+  application:
+    modules:
+      - auth_example.ConfigKt.module
+  deployment:
+    port: 8080
